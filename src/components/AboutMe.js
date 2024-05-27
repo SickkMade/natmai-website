@@ -1,5 +1,4 @@
 import React from 'react'
-import Pat from '../img/PatFustyPortrait.png'
 import Headshot from '../img/silly.jpg'
 
 const AboutMe = () => {

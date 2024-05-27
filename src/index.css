@@ -1,15 +1,11 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  font-family: 'Helvetica Neue',sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* PARALLAX IMAGES */
@@ -41,6 +37,8 @@ h3{
   text-transform: uppercase;
   font: 1.3rem;
   text-align: center;
+  
+  
 }
 
 .full-text-box{
@@ -108,7 +106,7 @@ h3{
 }
 
 .profile-image-section img {
-  width: 200px; 
+  width: 15em; 
   border-radius: 50%;
   margin-right: 20px;
   border: solid;
@@ -118,9 +116,14 @@ h3{
   font-size: 2em;
   color: #949384;
   text-align: center;
+  
 }
 
 .bio-section p {
-  font-family: 'ReadableFont', sans-serif; 
   color: black; 
+}
+
+.content{
+  padding-top: 10%; padding-bottom: 10%;
+
 }
