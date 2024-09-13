@@ -1,0 +1,48 @@
+.galary{
+    width:75%;
+    height: 50%;
+    background-color:black;
+
+
+    position:absolute;
+
+    overflow:hidden;
+}
+
+.inner-gallary{
+    width:100%;
+    height:100%;
+    white-space: nowrap;
+}
+
+.galary-item{
+    height:100%;
+    object-fit:fill;
+}
+.gallary-button{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+
+    border-radius: 100px;
+    border: 1px black solid;
+    background-color: white;
+
+    width:calc(var(--shopitem-width)/5);
+    height:calc(var(--shopitem-width)/5);
+
+    z-index: 1;
+}
+.gallary-next{
+    right:5%;
+}
+.gallary-prev{
+    left:5%;
+    transform:rotate(180deg) translateY(25%);
+}
+
+.gallary-svg{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

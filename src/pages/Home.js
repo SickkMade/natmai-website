@@ -7,11 +7,13 @@ import AboutMe from '../components/AboutMe';
 import PdfReader from '../components/PdfReader';
 import Card from '../components/Card';
 import Footer from '../components/Footer';
+import Gallary from '../components/Gallary';
 
 import Image1 from '../img/test.jpg';
 import PictoChat from '../img/pictoo.png'
 import Image2 from '../img/test2.jpg';
 import Image3 from '../img/test3.jpg';
+import Image4 from '../img/banana.jpg';
 import Rhino from '../img/rhinolocations.png';
 import Resume from '../documents/revising copy-1.pdf'
 import Physics from '../img/atom.gif';
@@ -44,6 +46,13 @@ const Home = () => {
             <Card img={PictoChat} altimg='logo of PictoChat' header='PictoChat Rebrand' text='For a local 24 hour Hackathon, MarinaHacks3.5, I reimagined and developed a new version of PictoChat, focusing on significantly improving interactivity and user engagement. I utilized React for responsive front-end development, integrated Flask and WebSockets for real-time backend operations, and used Aseprite for sophisticated graphic design. ' href='https://github.com/harvest7777/marinahacks-3.5' />
             <Card img={Physics} altimg='testing' header='Physics Music Balls ' text='Originating from a hackathon, this project combines physics and music to create an engaging interactive experience, highlighting fun creative applications of JavaScript to enhance gameplay mechanics and user interactions, exploring the interplay of physical concepts and sound.' href='https://github.com/swathis-metaverse/SwathisMetaverse' />
         </ParallaxImg> 
+    </section>
+
+    <FullTextBox header="photos" text = 'THANK YOU JACK' />
+    <section id="photos">
+        <ParallaxImg bgImage={Image4} strength={800}>
+            <Gallary imageCount={3}/>
+        </ParallaxImg>
     </section>
 
     <section id="contact">
